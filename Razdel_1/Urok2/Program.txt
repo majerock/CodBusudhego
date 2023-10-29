@@ -1,0 +1,21 @@
+#include <iostream>
+int main() {
+    //приветсвие
+    std::cout << "Hi people!" << std::endl;
+
+    float a,b,c,d;
+    //ввод числа a
+    std::cout << "Write first number:"; //ввод числа a
+    std::cin >> a;
+
+    std::cout << "Write two number:"; //ввод числа b
+    std::cin >> b;
+
+    std::cout << "Write three number:"; //ввод числа c
+    std::cin >> c;
+
+    std::cout << "Write four number:"; //ввод числа d
+    std::cin >> d;
+
+    std::cout << "Sum:" << a-b+c-d << std::endl;
+}

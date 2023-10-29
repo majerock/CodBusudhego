@@ -1,6 +1,24 @@
 #include <iostream>
-
+float a,b,c,d,sum;
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    //приветсвие
+    std::cout << "Калькулятор знакопеременной суммы приветствует вас!" << std::endl;
+    std::cout << "Введите подряд 4 цифры, как это предписывает программа" << std::endl;
+
+    //ввод числа a
+    std::cout << "Введите первое число"; //ввод числа a
+    std::cin >> a >> std::edl;
+
+    std::cout << "Введите второе число"; //ввод числа b
+    std::cin >> b >> std::edl;
+
+    std::cout << "Введите третье число"; //ввод числа c
+    std::cin >> c >> std::edl;
+
+    std::cout << "Введите четвертое число"; //ввод числа d
+    std::cin >> d >> std::edl;
+
+    sum:=a-b+c-d;
+    std::cout << "Знакопеременная сумма равна:" sum;
+
 }
