@@ -1,3 +1,0 @@
-D:/CodBusudhego/cmake-build-debug/CMakeFiles/CodBusudhego.dir
-D:/CodBusudhego/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/CodBusudhego/cmake-build-debug/CMakeFiles/rebuild_cache.dir
