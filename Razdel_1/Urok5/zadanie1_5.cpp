@@ -24,10 +24,11 @@ int main() {
         if (a-a1==0 && b-b1==0) {
             std::cout << "You are standing still" << std::endl;
         }
-        else {if ((a-a1==0 && 1 <= b - b1 <= 8) || (b-b1==0 && 1 <= a - a1 <= 8) || (abs(a - a1)==(abs(b - b1)))) {
-            std::cout << "Yes, you can" << std::endl;
+        else {
+            if ((a - a1 == 0 ) || (b - b1 == 0 ) || abs(a - a1) == (abs(b - b1))) {
+                std::cout << "Yes, you can" << std::endl;
+            } else { std::cout << "No, you can't" << std::endl; }
         }
-        else std::cout << "No, you can't" << std::endl;}
 
     }
     else std::cout << "invalid data format (can be from 1 to 8)" << std::endl;
