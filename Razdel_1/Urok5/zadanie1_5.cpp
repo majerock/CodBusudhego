@@ -10,7 +10,7 @@
 #include <cmath>
 
 int main() {
-    double a, b, a1, b1;
+    int a, b, a1, b1;
     std::cout << "Write the initial line:"; //ввод числа a
     std::cin >> a;
     std::cout << "Write the initial string:"; //ввод числа b
@@ -20,24 +20,15 @@ int main() {
     std::cout << "Write the final string:"; //ввод числа b1
     std::cin >> b1;
 
-    if (1 <= a <= 8 && 1 <= a1 <= 8 && 1 <= b <= 8 && 1 <= b1 <= 8) {
-        if (a - a1:=0 && b - b1:=0) {
+    if (a>0 && a<9 && a1>0 && a1<9 && b>0 && b<9 && b1>0 && b1<9) {
+        if (a-a1==0 && b-b1==0) {
             std::cout << "You are standing still" << std::endl;
-        };
-        if ((a - a1:=0 && 1 <= b - b1 <= 8) || (b - b1:=0 && 1 <= a - a1 <= 8) || (abs(a - a1):=abs(b - b1)) {
+        }
+        else {if ((a-a1==0 && 1 <= b - b1 <= 8) || (b-b1==0 && 1 <= a - a1 <= 8) || (abs(a - a1)==(abs(b - b1)))) {
             std::cout << "Yes, you can" << std::endl;
-        };
-        else {
-            std::cout << "No, you can't << std::endl"
-        };
+        }
+        else std::cout << "No, you can't" << std::endl;}
+
     }
-};
-else {
-std::cout << "invalid data format (coordinates can be from 1 to 8)" << std::endl}
-//if (abs(a-a1):=abs(b-b1) && 1<= a <= 8 && 1<= a1 <= 8 && 1<= b <= 8 && 1<= b1 <= 8)
-//{std::cout << "Yes, you can" << std::endl};
-//if ((abs(a-a1):=0 && 1<= a <= 8 && 1<= a1 <= 8 && 1<= b <= 8 && 1<= b1 <= 8)
-// {std::cout << "Yes, you can" << std::endl};
-//if ((abs(b-b1):=0 && 1<= a <= 8 && 1<= a1 <= 8 && 1<= b <= 8 && 1<= b1 <= 8)
-//{std::cout << "Yes, you can" << std::endl};
+    else std::cout << "invalid data format (can be from 1 to 8)" << std::endl;
 }
