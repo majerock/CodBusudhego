@@ -14,4 +14,4 @@ int main() {
     std::cin >> a;
     if (a%2==0) std::cout<< "chetnoye";
     else std::cout<< "NEchetnoye";
-};
+}
