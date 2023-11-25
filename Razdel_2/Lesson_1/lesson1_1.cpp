@@ -25,6 +25,7 @@ int main () {
             break;
         case (1):
             double a;
+            std::cout<< "Formula area: a^2" << std::endl;
             std::cout<< "Enter a:";
             std::cin >> a;
             std::cout<< "Area:" << a*a ;
@@ -32,6 +33,7 @@ int main () {
 
         case (2):
             double a1,b1;
+            std::cout<< "Formula area: a*b" << std::endl;
             std::cout<< "Enter a:";
             std::cin >> a1;
             std::cout<< "Enter b:";
@@ -40,12 +42,15 @@ int main () {
             break;
         case (3):
             double r;
+            std::cout<< "Formula area: Pi*R^2" << std::endl;
             std::cout<< "Enter r:";
             std::cin >> r;
             std::cout<< "Area:" << M_PI*r*r ;
             break;
         case (4):
             double a3,b3,c3,p;
+            std::cout<< "Formula area: sqrt(p*(p-a)*(p-b)*(p-c))" << std::endl;
+            std::cout<< "Formula p: (a+b+c)/2" << std::endl;
             std::cout<< "Enter a:";
             std::cin >> a3;
             std::cout<< "Enter b:";
