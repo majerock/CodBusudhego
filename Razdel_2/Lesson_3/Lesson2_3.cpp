@@ -18,10 +18,10 @@ std::cout << "Quanity: ";
 std::cin >> n ;
 std::cout << "Price: ";
 std::cin >> price ;
-    if (((n * price) > 500 & (n * price) < 1000) || (n * price) == 500) {
+    if (((n * price) > 500 & (n * price) < 1000) || (n * price) == 500 || (n * price) == 1000) {
        std::cout << "Invoice, with 5% discount: " << n * price * 0.95;
     } else {
-        ((n * price) > 1000 || (n * price) == 1000)  ? std::cout << "Invoice, with 10% discount: " << n * price * 0.9 :
+        ((n * price) > 1000)  ? std::cout << "Invoice, with 10% discount: " << n * price * 0.9 :
         std::cout<< "Invoice, no discount: " << n * price;
     }
 }
