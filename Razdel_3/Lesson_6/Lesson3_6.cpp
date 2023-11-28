@@ -4,7 +4,6 @@
 
 #include <iostream>
 #include <windows.h>
-#include <conio.h>
 
 
 int main() {
@@ -16,7 +15,7 @@ int main() {
     while (balance < 0) {
         std::cout << "Enter start balance:";
         std::cin >> a;
-        a < 0 ? std::cout << "Enter positive number" << std::endl : (std::cout << "Sucsess!" << std::endl);
+        a < 0 ? std::cout << "Enter positive/zero number" << std::endl : (std::cout << "Sucsess!" << std::endl);
         Sleep(2000);
         balance=a;
     };
