@@ -17,12 +17,12 @@
 
 int main() {
     double imt, rost, ves;
-    // std::cout << "Rost (m): ";
-    // std::cin >> rost ;
-    // std::cout << "Ves (kg): ";
-    // std::cin >> ves ;
-    // imt = rost/(ves*ves);
-    std::cin >> imt; //debug code
+    std::cout << "Rost (m): ";
+    std::cin >> rost ;
+    std::cout << "Ves (kg): ";
+    std::cin >> ves ;
+    imt = ves/(rost*rost);
+    //std::cin >> imt; //debug code
     if (imt > 30 || imt == 30) {std::cout << "Ozirenie";}
     else {
         imt < 18.5 ? ( std::cout << "Nedostatochnyi" ) :
