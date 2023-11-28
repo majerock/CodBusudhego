@@ -10,7 +10,7 @@
 
 int main () {
     bool stopcode;
-    int m,n;
+    long m,n;
     std::cout << "m=";
     std::cin >> m;
     std::cout << "n=";
