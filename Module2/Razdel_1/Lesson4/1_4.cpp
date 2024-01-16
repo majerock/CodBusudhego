@@ -16,7 +16,7 @@ int main() {
 
 
     for (int i = 0; i < 3; i++) {
-        if  (q[i] < low) {low = q[i] ; lowi=i+1;}
+        if  (q[i] < low) {low = q[i] ; lowi=i+;}
         else {low = low;};
     }
         std::cout << "Low element q[" << lowi <<"]=" << low;
