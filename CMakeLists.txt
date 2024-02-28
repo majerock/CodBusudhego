@@ -14,4 +14,5 @@ add_executable(CodBusudhego
         "Module 1/Razdel_1/urok6/zadanie1_6.cpp"
         "Module 1/Razdel_2/Lesson_1/lesson1_1.cpp"
         "Module 1/Razdel_2/Lesson_1/lesson1_1.cpp"
+        Module2/Razdel_1/Lesson6/1_6.cpp
 )
